@@ -1,8 +1,10 @@
-package com.oj.p26;
+package com.oj.array.p26;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.oj.array.p26.Solution;
 
 public class SolutionTest {
 

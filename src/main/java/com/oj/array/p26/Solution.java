@@ -1,4 +1,4 @@
-package com.oj.p26;
+package com.oj.array.p26;
 
 public class Solution {
 	public int removeDuplicates(int[] nums) {
