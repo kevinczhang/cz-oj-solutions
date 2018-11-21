@@ -1,13 +1,15 @@
-package com.oj.array.p189;
+package com.oj.array;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-public class SolutionTest {
+import com.oj.array.P189_Solution;
+
+public class P189_SolutionTest {
 
 	@Test
 	public void test() {
-		Solution solutionToTest = new Solution();
+		P189_Solution solutionToTest = new P189_Solution();
 		int[] nums = {1,2,3,4,5,6,7};
 		int k = 3;
 		solutionToTest.rotate(nums, k);

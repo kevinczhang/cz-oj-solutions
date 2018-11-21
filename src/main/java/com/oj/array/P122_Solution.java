@@ -1,6 +1,6 @@
-package com.oj.array.p122;
+package com.oj.array;
 
-class Solution {
+class P122_Solution {
     public int maxProfit(int[] prices) {
         int res = 0;
         for (int i = 1; i < prices.length; i++) {

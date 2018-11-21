@@ -1,6 +1,6 @@
-package com.oj.array.p26;
+package com.oj.array;
 
-public class Solution {
+public class P26_Solution {
 	public int removeDuplicates(int[] nums) {
 		if(nums == null) return 0;
 		if(nums.length <= 1) return nums.length;

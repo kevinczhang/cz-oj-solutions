@@ -1,9 +1,9 @@
-package com.oj.array.p217;
+package com.oj.array;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class Solution {
+public class P217_Solution {
 	public boolean containsDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<>();
         for (int num : nums) {
