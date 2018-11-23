@@ -3,7 +3,7 @@ package com.oj.array;
 import java.util.HashSet;
 import java.util.Set;
 
-public class P217_Solution {
+public class P217_Contains_Duplicate {
 	public boolean containsDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<>();
         for (int num : nums) {

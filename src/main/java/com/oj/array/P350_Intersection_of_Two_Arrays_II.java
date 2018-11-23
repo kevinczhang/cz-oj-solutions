@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.IntStream;
 
-public class P350_Solution {
+public class P350_Intersection_of_Two_Arrays_II {
 	public int[] intersect(int[] nums1, int[] nums2) {
         Map<Integer, Integer> nums1Map = new HashMap<>();
         

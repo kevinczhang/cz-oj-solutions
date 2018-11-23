@@ -1,6 +1,6 @@
 package com.oj.array;
 
-public class P283_Solution {
+public class P283_Move_Zeroes {
 	public void moveZeroes(int[] nums) {		
 		int lastNonZeroFoundAt = 0;
 	    // If the current element is not 0, then we need to

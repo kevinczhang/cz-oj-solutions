@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class P36_Solution {
+public class P36_Valid_Sudoku {
 	public boolean isValidSudoku(char[][] board) {		
 		// Map to hold coordinations for chars
         Map<Character, List<Integer>> charMap = new HashMap<>();        

@@ -1,6 +1,6 @@
 package com.oj.array;
 
-public class P189_Solution {
+public class P189_Rotate_Image {
 	public void rotate(int[] nums, int k) {
         k %= nums.length;
         reverse(nums, 0, nums.length - 1);

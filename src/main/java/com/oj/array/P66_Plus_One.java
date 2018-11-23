@@ -1,6 +1,6 @@
 package com.oj.array;
 
-public class P66_Solution {
+public class P66_Plus_One {
 	public int[] plusOne(int[] digits) {        
         int carry = 1;
         for (int i = digits.length - 1; i >= 0; i--) {
