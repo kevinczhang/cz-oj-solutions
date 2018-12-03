@@ -1,0 +1,1 @@
+1. Min Stack. Push or pop min don't need to get all elements.
