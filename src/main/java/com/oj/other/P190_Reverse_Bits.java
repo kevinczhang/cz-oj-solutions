@@ -17,7 +17,7 @@ public class P190_Reverse_Bits {
         return res;
     }
     
- // cache
+    // cache
     private final Map<Byte, Integer> cache = new HashMap<Byte, Integer>();
     public int reverseBitsFollowup(int n) {
         byte[] bytes = new byte[4];

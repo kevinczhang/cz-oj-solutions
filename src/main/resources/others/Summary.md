@@ -1,0 +1,1 @@
+1. Reversed_Bits: Use >>> to do unsigned shift. Break int into bytes.
