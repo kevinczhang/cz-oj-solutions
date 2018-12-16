@@ -1,14 +1,16 @@
-package com.cz.oj.arraystring.threesum;
+package com.cz.oj.arrayandstrings;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class SolutionTest {
+import com.cz.oj.arrayandstrings.P15_3Sum;
+
+public class P15_3SumTest {
 
 	@Test
 	public void testThreeSum() {
-		Solution solutionToTest = new Solution();
+		P15_3Sum solutionToTest = new P15_3Sum();
 		int[] nums = {-1, 0, 1, 2, -1, -4};
 	 	assertEquals(2, solutionToTest.threeSum(nums).size());
 	}

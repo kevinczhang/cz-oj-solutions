@@ -1,10 +1,10 @@
-package com.cz.oj.arraystring.threesum;
+package com.cz.oj.arrayandstrings;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
+public class P15_3Sum {
 	public List<List<Integer>> threeSum(int[] nums) {
 		List<List<Integer>> res = new ArrayList<>();
 		if(nums == null || nums.length < 3) return res;
@@ -30,8 +30,7 @@ public class Solution {
 	                j++;
 	            }
 	        }
-	    }
-		
+	    }		
 		
 		return res;        
     }
