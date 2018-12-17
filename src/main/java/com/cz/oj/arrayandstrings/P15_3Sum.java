@@ -16,15 +16,14 @@ public class P15_3Sum {
 	            continue;
 	        }
 	        int j = i + 1, k = nums.length - 1;  
-	        int target = -nums[i];
 	        while (j < k) {
-	            if (nums[j] + nums[k] == target) {
+	            if (nums[j] + nums[k] + nums[i] == 0) {
 	                res.add(Arrays.asList(nums[i], nums[j], nums[k]));
 	                j++;
 	                k--;
 	                while (j < k && nums[j] == nums[j - 1]) j++;  // skip same result
 	                while (j < k && nums[k] == nums[k + 1]) k--;  // skip same result
-	            } else if (nums[j] + nums[k] > target) {
+	            } else if (nums[j] + nums[k] + nums[i] > 0) {
 	                k--;
 	            } else {
 	                j++;
